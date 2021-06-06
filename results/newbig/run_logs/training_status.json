@@ -1,0 +1,47 @@
+{
+    "DwarfBehavior": {
+        "checkpoints": [
+            {
+                "steps": 499997,
+                "file_path": "results\\newbig\\DwarfBehavior\\DwarfBehavior-499997.onnx",
+                "reward": 1.0,
+                "creation_time": 1622884277.2192285,
+                "auxillary_file_paths": [
+                    "results\\newbig\\DwarfBehavior\\DwarfBehavior-499997.pt"
+                ]
+            },
+            {
+                "steps": 999995,
+                "file_path": "results\\newbig\\DwarfBehavior\\DwarfBehavior-999995.onnx",
+                "reward": 0.6666666666666666,
+                "creation_time": 1622888166.8060505,
+                "auxillary_file_paths": [
+                    "results\\newbig\\DwarfBehavior\\DwarfBehavior-999995.pt"
+                ]
+            },
+            {
+                "steps": 1000020,
+                "file_path": "results\\newbig\\DwarfBehavior\\DwarfBehavior-1000020.onnx",
+                "reward": 0.6666666666666666,
+                "creation_time": 1622888166.8638961,
+                "auxillary_file_paths": [
+                    "results\\newbig\\DwarfBehavior\\DwarfBehavior-1000020.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000020,
+            "file_path": "results\\newbig\\DwarfBehavior.onnx",
+            "reward": 0.6666666666666666,
+            "creation_time": 1622888166.8638961,
+            "auxillary_file_paths": [
+                "results\\newbig\\DwarfBehavior\\DwarfBehavior-1000020.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.6.0"
+    }
+}

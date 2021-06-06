@@ -1,0 +1,65 @@
+{
+    "DwarfBehavior": {
+        "checkpoints": [
+            {
+                "steps": 2499996,
+                "file_path": "results\\fivemil\\DwarfBehavior\\DwarfBehavior-2499996.onnx",
+                "reward": 1.0,
+                "creation_time": 1622905719.1822371,
+                "auxillary_file_paths": [
+                    "results\\fivemil\\DwarfBehavior\\DwarfBehavior-2499996.pt"
+                ]
+            },
+            {
+                "steps": 2999997,
+                "file_path": "results\\fivemil\\DwarfBehavior\\DwarfBehavior-2999997.onnx",
+                "reward": 0.8461538461538461,
+                "creation_time": 1622908774.3184311,
+                "auxillary_file_paths": [
+                    "results\\fivemil\\DwarfBehavior\\DwarfBehavior-2999997.pt"
+                ]
+            },
+            {
+                "steps": 3499996,
+                "file_path": "results\\fivemil\\DwarfBehavior\\DwarfBehavior-3499996.onnx",
+                "reward": 1.0,
+                "creation_time": 1622911833.7671368,
+                "auxillary_file_paths": [
+                    "results\\fivemil\\DwarfBehavior\\DwarfBehavior-3499996.pt"
+                ]
+            },
+            {
+                "steps": 3999995,
+                "file_path": "results\\fivemil\\DwarfBehavior\\DwarfBehavior-3999995.onnx",
+                "reward": 1.0,
+                "creation_time": 1622914915.0627484,
+                "auxillary_file_paths": [
+                    "results\\fivemil\\DwarfBehavior\\DwarfBehavior-3999995.pt"
+                ]
+            },
+            {
+                "steps": 4000005,
+                "file_path": "results\\fivemil\\DwarfBehavior\\DwarfBehavior-4000005.onnx",
+                "reward": 1.0,
+                "creation_time": 1622914915.1545029,
+                "auxillary_file_paths": [
+                    "results\\fivemil\\DwarfBehavior\\DwarfBehavior-4000005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4000005,
+            "file_path": "results\\fivemil\\DwarfBehavior.onnx",
+            "reward": 1.0,
+            "creation_time": 1622914915.1545029,
+            "auxillary_file_paths": [
+                "results\\fivemil\\DwarfBehavior\\DwarfBehavior-4000005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.6.0"
+    }
+}

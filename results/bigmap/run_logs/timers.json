@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1622879837",
+        "python_version": "3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\gooby\\anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn config/ppo/dwarf.yaml --run-id=bigmap --resume",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.6.0",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1622879865"
+    },
+    "total": 27.5747886,
+    "count": 1,
+    "self": 0.0127865000000007,
+    "children": {
+        "run_training.setup": {
+            "total": 0.20918330000000007,
+            "count": 1,
+            "self": 0.20918330000000007
+        },
+        "TrainerController.start_learning": {
+            "total": 27.3528188,
+            "count": 1,
+            "self": 0.00010209999999943875,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 27.2938238,
+                    "count": 1,
+                    "self": 27.2938238
+                },
+                "trainer_threads": {
+                    "total": 1.0000000010279564e-06,
+                    "count": 1,
+                    "self": 1.0000000010279564e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.05889190000000255,
+                    "count": 1,
+                    "self": 0.0009246000000047161,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.057967299999997834,
+                            "count": 1,
+                            "self": 0.057967299999997834
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

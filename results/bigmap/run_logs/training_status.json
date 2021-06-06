@@ -1,0 +1,56 @@
+{
+    "DwarfBehavior": {
+        "checkpoints": [
+            {
+                "steps": 499997,
+                "file_path": "results\\bigmap\\DwarfBehavior\\DwarfBehavior-499997.onnx",
+                "reward": 1.0,
+                "creation_time": 1622869490.2428577,
+                "auxillary_file_paths": [
+                    "results\\bigmap\\DwarfBehavior\\DwarfBehavior-499997.pt"
+                ]
+            },
+            {
+                "steps": 999998,
+                "file_path": "results\\bigmap\\DwarfBehavior\\DwarfBehavior-999998.onnx",
+                "reward": 1.0,
+                "creation_time": 1622873623.6608436,
+                "auxillary_file_paths": [
+                    "results\\bigmap\\DwarfBehavior\\DwarfBehavior-999998.pt"
+                ]
+            },
+            {
+                "steps": 1000013,
+                "file_path": "results\\bigmap\\DwarfBehavior\\DwarfBehavior-1000013.onnx",
+                "reward": 1.0,
+                "creation_time": 1622873623.7112174,
+                "auxillary_file_paths": [
+                    "results\\bigmap\\DwarfBehavior\\DwarfBehavior-1000013.pt"
+                ]
+            },
+            {
+                "steps": 1000013,
+                "file_path": "results\\bigmap\\DwarfBehavior\\DwarfBehavior-1000013.onnx",
+                "reward": null,
+                "creation_time": 1622879865.103877,
+                "auxillary_file_paths": [
+                    "results\\bigmap\\DwarfBehavior\\DwarfBehavior-1000013.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000013,
+            "file_path": "results\\bigmap\\DwarfBehavior.onnx",
+            "reward": null,
+            "creation_time": 1622879865.103877,
+            "auxillary_file_paths": [
+                "results\\bigmap\\DwarfBehavior\\DwarfBehavior-1000013.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.6.0"
+    }
+}
